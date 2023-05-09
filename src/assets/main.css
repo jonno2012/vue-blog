@@ -1,0 +1,81 @@
+/*@import './base.css';*/
+@import "metroTheme.css";
+
+.postCard {
+    /*max-width: 300px;*/
+}
+
+/*@import "./flex.css";*/
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Segoe UI",Arial,sans-serif;
+}
+nav {
+    margin: 0 !important;
+    padding: 0 !important;
+    width:300px !important;
+}
+header {
+    height: 65px;
+}
+
+.justify-between {
+    justify-content: space-between;
+}
+
+.cardHolder {
+    grid-template-columns: repeat(auto-fit, minmax(215px, 1fr));
+    gap: 2em;
+}
+input[type='text'], textarea, select {
+    border: 1px solid lightgray;
+}
+/*.block {*/
+/*    padding-left: 4vw;*/
+/*    padding-right: 4vw;*/
+/*}*/
+
+@media screen and (min-width: 768px) {
+    .content {
+        grid-template-columns: 25% 1fr;
+    }
+
+    /*.block {*/
+    /*    padding-left: 4vw;*/
+    /*    padding-right: 4vw;*/
+    /*}*/
+}
+
+/*#app {*/
+/*  max-width: 1280px;*/
+/*  margin: 0 auto;*/
+/*  padding: 2rem;*/
+
+/*  font-weight: normal;*/
+/*}*/
+
+/*a,*/
+/*.green {*/
+/*  text-decoration: none;*/
+/*  color: hsla(160, 100%, 37%, 1);*/
+/*  transition: 0.4s;*/
+/*}*/
+
+/*@media (hover: hover) {*/
+/*  a:hover {*/
+/*    background-color: hsla(160, 100%, 37%, 0.2);*/
+/*  }*/
+/*}*/
+
+/*@media (min-width: 1024px) {*/
+/*  body {*/
+/*    display: flex;*/
+/*    place-items: center;*/
+/*  }*/
+
+/*  #app {*/
+/*    !*display: grid;*!*/
+/*    !*grid-template-columns: 1fr 1fr;*!*/
+/*    padding: 0 2rem;*/
+/*  }*/
+/*}*/

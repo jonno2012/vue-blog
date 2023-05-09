@@ -1,0 +1,13 @@
+{
+  "categories": [
+    {"catId":  1, "color":  "w3-metro-light-green"},
+    {"catId":  2, "color":  "w3-metro-dark-green"},
+    {"catId":  3, "color":  "w3-metro-light-purple"},
+    {"catId":  4, "color":  "w3-metro-dark-purple"},
+    {"catId":  5, "color":  "w3-metro-blue"},
+    {"catId":  6, "color":  "w3-metro-dark-blue"},
+    {"catId":  7, "color":  "w3-metro-yellow"},
+    {"catId":  8, "color":  "w3-metro-dark-red"}
+  ],
+  "default": "w3-metro-dark-blue"
+}

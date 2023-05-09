@@ -1,0 +1,36 @@
+.flex {
+    display: flex;
+}
+.flex-auto {
+    flex: auto;
+}
+.flex-1 {
+    flex: 1;
+}
+.justify-between {
+    justify-content: space-between;
+}
+.flex-basis-50-percent {
+    flex-basis: 50%;
+}
+
+.flex-basis-75-percent {
+    flex-basis: 75%;
+}
+
+.flex-nowrap {
+    flex-wrap: nowrap;
+}
+
+.flex-wrap {
+    flex-wrap: wrap;
+}
+
+.flex-direction {
+    flex-direction: row;
+}
+
+/* shrink */
+.flex-shrink-50-percent {
+    flex-shrink: 1;
+}
